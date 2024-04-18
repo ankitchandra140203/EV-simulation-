@@ -1,3 +1,3 @@
 # EV simulation 
- This simulation focous on range estimation of electric vehicle on different terrains
+ This simulation focus on range estimation of electric vehicle on different terrains
  I have simulated an electric vehicle (EV) in three distinct parts: battery management, motor controller, and power conversion. When the accelerator pedal is engaged, a voltage is generated based on a lookup table fed into a microprocessor. Subsequently, the Vehicle Control Unit (VCU) processes this voltage to determine the required torque, which is then communicated to the motor controller. The motor controller, in turn, signals the battery controller to draw power from the battery and transmit it as DC power to an inverter, facilitating the conversion to AC power for consumption by the AC motor. The motor then delivers the corresponding torque to the wheels based on the gear transmission system.
